@@ -1,0 +1,273 @@
+nav {
+    background: transparent;
+    height: 50px;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+    background: transparent;
+    height: 700px;
+}
+
+nav ul li, nav .logo {
+    display: inline-block;
+    /* 或者可以设置float: left;*/
+    line-height: 50px;
+    /* 垂直居中*/
+    margin-right: 20px;
+}
+
+.logo a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li a {
+    /*line-height: 50px;*/
+    text-decoration: none;
+    /* 和设置在li上有区别吗？*/
+    display: inline-block;
+    /* 如果不设置inline-block,height无法设置*/
+    height: 40px;
+    /* 设置此属性是为了链接可点击的地方不局限于文字*/
+    line-height: inherit;
+    /* 暂不确定是否必要*/
+    color: #fff;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+nav ul {
+    float: right;
+}
+
+nav .logo {
+    float: left;
+    padding-left: 20px;
+}
+
+.logo a {
+    font-size: 18px;
+    color: #fff;
+    height: 50px;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.banner .inner {
+    max-width: 280px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+}
+
+.banner button {
+    border: none;
+    background: #1b89d2;
+    color: #eee;
+    border-radius: 6px;
+}
+
+.banner button {
+    padding: 14px 40px;
+    margin-top: 20px;
+}
+
+.banner .inner .more {
+    margin-top: 220px;
+    color: #fff;
+}
+
+.sub-heading {
+    line-height: 30px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.inner h1 {
+    color: #fff;
+    padding: 15px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.green-section {
+    height: 400px;
+    background: #2e998f;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.wraper {
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hr {
+    background: #358460f0;
+    height: 1px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.green-section .icon-group .icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin: 20px;
+    border: 2px solid #05867a;
+    padding: 15px;
+}
+
+.green-section .icon-group .icon i {
+    transform: rotate(-45deg);
+}
+
+.subheader {
+    color: #fff;
+    margin: 20px auto;
+}
+
+.sub-header {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+    letter-spacing: 3px;
+}
+
+.gray-section {
+    background: #252f34;
+    font-size: 0;
+}
+
+.gray-section>div {
+    float: left;
+}
+
+.preview>div {
+    float: left;
+}
+
+.gray-section:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.img-section {
+    width: 30%;
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.text-section {
+    width: 70%;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.text-section>* {
+    max-width: 90%;
+}
+
+.preview:first-child {
+    background-color: rgba(255, 255, 255, 0.01);
+}
+
+.purple-section {
+    padding: 80px;
+    background: #3f3965;
+    color: #fff;
+}
+
+.purple-section .wraper {
+    width: 60%;
+}
+
+.head-wraper .hr {
+    background: #fff;
+}
+
+.purple-section .card-group .card {
+    width: 50%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.card:first-child {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.card:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.card:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.card:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+}
+
+.footer .icon-group {
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.icon-group li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-wraper {
+    background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-595281.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
